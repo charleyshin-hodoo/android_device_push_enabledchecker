@@ -3,6 +3,8 @@
 ## aar파일을 Unity의 Plugins/Android폴더로 copy
 ## 사용법
 
+```c#
+
 public class AndroidPushChecker : MonoBehaviour
 {
  #if UNITY_ANDROID && !UNITY_EDITOR
@@ -38,3 +40,4 @@ public class AndroidPushChecker : MonoBehaviour
     }
 #endif
 }
+```
